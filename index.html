@@ -1,32 +1,95 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Belajar Web</title>
 
-    <!-- memanggil file CSS yang telah dibuat -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Saya</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            padding: 20px 32px;
+        }
+
+        header {
+            background-color: #19b99b;
+            color: black;
+            text-align: center;
+            padding: 30px 15px;
+        }
+
+        header h1 {
+            font-size: 32px;
+        }
+
+        main {
+            background-color: #852a2a;
+            color: black;
+            min-height: 260px;
+            padding: 20px 15px;
+        }
+
+        main p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #c8f000;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer h2 {
+            font-size: 24px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            header h1 {
+                font-size: 25px;
+            }
+
+            main {
+                min-height: 220px;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-    <!-- bagian header template -->
+    <!-- Bagian Header -->
     <header>
-        <h2>Website saya</h2>
+        <h1>Website Saya</h1>
     </header>
-    <!-- akhir bagian header template -->
 
-    <p>
-        Pengenalan HTML dan CSS merupakan dasar dalam pembuatan website.
-        HTML digunakan untuk membuat struktur halaman web, sedangkan CSS
-        digunakan untuk mengatur tampilan, warna, ukuran teks, dan tata letak
-        agar website terlihat lebih menarik dan mudah dibaca.
-    </p>
+    <!-- Bagian Isi Website -->
+    <main>
+        <p>
+            Pengenalan HTML dan CSS merupakan dasar dalam pembuatan website.
+            HTML digunakan untuk membuat struktur halaman web, sedangkan CSS
+            digunakan untuk mengatur tampilan, warna, ukuran teks, dan tata letak
+            agar website terlihat lebih menarik dan mudah dibaca.
+        </p>
+    </main>
 
-    <!-- bagian footer template -->
+    <!-- Bagian Footer -->
     <footer>
-        <h1>Footer</h1>
+        <h2>Footer</h2>
     </footer>
-    <!-- akhir bagian footer template -->
 
 </body>
-</html>\
+</html>
